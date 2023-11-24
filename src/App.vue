@@ -23,6 +23,9 @@ export default {
     };
   },
   methods: {
+    //git add .
+    //git commit -m 'test'
+    //git push origin main
     
     updateMoney() {
       db.collection("firstCollection").doc().set({money:this.money})
